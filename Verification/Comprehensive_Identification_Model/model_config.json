@@ -1,0 +1,16 @@
+{
+    "window_size": 10,
+    "batch_size": 512,
+    "temp_turb_input": 8,
+    "meth_orp_input": 6,
+    "temp_hidden": 16,
+    "temp_layers": 2,
+    "turb_hidden": 32,
+    "turb_layers": 3,
+    "meth_hidden": 16,
+    "meth_layers": 1,
+    "orp_hidden": 16,
+    "orp_layers": 3,
+    "mlp_hidden_size": 48,
+    "mlp_num_layers": 3
+}
