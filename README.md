@@ -15,7 +15,7 @@ Ablation study (GRU + MLP end‑to‑end training **without** anomaly supervisio
 - Only the **MLP hyperparameters** (hidden size, number of layers, learning rate) are tuned via 5‑fold cross‑validation.
 - Useful for comparing the effect of the anomaly detection branch against the full model.
 
-- ## 📁 Verification
+## 📁 Verification
 - ### `Verification.ipynb`
 Comprehensive evaluation script for a trained model.
 - Loads the saved `best_combined.pth` and its configuration.
