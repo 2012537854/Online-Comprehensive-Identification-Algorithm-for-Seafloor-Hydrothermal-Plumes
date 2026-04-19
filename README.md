@@ -16,12 +16,12 @@ Ablation study (GRU + MLP end‑to‑end training **without** anomaly supervisio
 - Useful for comparing the effect of the anomaly detection branch against the full model.
 
 ## 📁 Verification
-- ### `Verification.ipynb`
+### `Verification.ipynb`
 Comprehensive evaluation script for a trained model.
 - Loads the saved `best_combined.pth` and its configuration.
 - Runs inference on validation data and computes:
-  - **Anomaly detection metrics** (accuracy, precision, recall, F1‑score) for each sensor.
-  - **Fluid type classification** overall accuracy and confusion matrix.
+  **Anomaly detection metrics** (accuracy, precision, recall, F1‑score) for each sensor.
+  **Fluid type classification** overall accuracy and confusion matrix.
 - Generates publication‑quality plots of predicted anomaly probabilities and the confusion matrix.
 - Saves all predictions to an Excel file for further analysis.
 - Optionally reports **model complexity** (parameter count, size, inference latency).
