@@ -1,0 +1,2 @@
+# Online-Comprehensive-Identification-Algorithm-for-Seafloor-Hydrothermal-Plumes
+Online identification of seafloor hydrothermal plumes from AUV sensor data. Reads real‑time temperature, turbidity, methane, and ORP. Sliding‑window statistical features feed four GRU anomaly detectors. An MLP then fuses anomaly probabilities to classify plume fluid types instantly. Lightweight for onboard deployment.
